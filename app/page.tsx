@@ -1,14 +1,16 @@
-import Hero from "./components/main/Hero";
-import Skills from "./components/main/Skills";
-import Projects from "./components/main/Projects";
+"use client";
+
+import CenterContent from "@/components/layout/CenterContent";
+import LeftSidebar from "@/components/layout/LeftSidebar";
+import RightSidebar from "@/components/layout/RightSidebar";
+
 export default function Home() {
   return (
-    <main className="h-full w-full">
-      <div className="flex flex-col gap-20 h-full w-full">
-        <Hero />
-        <Skills />
-        <Projects />
-      </div>
-    </main>
+    <div className="grid grid-cols-[200px_1fr_150px]">
+      <LeftSidebar />
+      <CenterContent />
+
+      <RightSidebar />
+    </div>
   );
 }
