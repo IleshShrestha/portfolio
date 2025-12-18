@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaEnvelope, FaLanguage, FaPhone, FaSuitcase } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 export default function ShortIntroSection() {
+  const liClass = "text-[10px] text-primary-text flex items-center gap-2";
   return (
     <>
       <div className="flex items-center gap-2">
@@ -20,23 +21,23 @@ export default function ShortIntroSection() {
       </div>
 
       <ul className="flex flex-col gap-2">
-        <li className="text-[10px] text-primary-text flex items-center gap-2">
+        <li className={liClass}>
           {" "}
           <FaSuitcase /> <span> 1 year of experience</span>
         </li>
-        <li className="text-[10px] text-primary-text flex items-center gap-2">
+        <li className={liClass}>
           {" "}
           <FaMapMarkerAlt /> Pennsylvania, USA
         </li>
-        <li className="text-[10px] text-primary-text flex items-center gap-2">
+        <li className={liClass}>
           {" "}
           <FaLanguage /> English, Nepali
         </li>
-        <li className="text-[10px] text-primary-text flex items-center gap-2">
+        <li className={liClass}>
           {" "}
           <FaEnvelope /> ilesh.k.shrestha@gmail.com
         </li>
-        <li className="text-[10px] text-primary-text flex items-center gap-2">
+        <li className={liClass}>
           {" "}
           <FaPhone /> +1 (215) 390-6297
         </li>

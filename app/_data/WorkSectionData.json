@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Work 1",
+    "image": "/ilesh.jpg",
+    "link": "https://www.google.com"
+  },
+  {
+    "id": 2,
+    "title": "Work 2",
+    "image": "/ilesh.jpg",
+    "link": "https://www.google.com"
+  },
+  {
+    "id": 3,
+    "title": "Work 3",
+    "image": "/ilesh.jpg",
+    "link": "https://www.google.com"
+  }
+]
