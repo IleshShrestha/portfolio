@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Front-End Development",
+    "image": "/html.png"
+  },
+  {
+    "id": 2,
+    "name": "Back-End Development",
+    "image": "/node.png"
+  }
+]

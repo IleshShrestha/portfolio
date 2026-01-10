@@ -5,7 +5,7 @@ export default function ShortIntroSection() {
   const liClass = "text-[10px] text-primary-text flex items-center gap-2";
   return (
     <>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 pt-6">
         <Image src="/ilesh.jpg" alt="Profile" width={50} height={50} />
 
         <div className="flex flex-col">

@@ -4,7 +4,7 @@ import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export default function AboutSection() {
   const liClass =
-    "grid grid-cols-3 gap-6 items-center border-b border-(--border-color) pb-3";
+    "grid grid-cols-3 gap-6 items-center border-b border-(--border-color) py-2";
   return (
     <div className="flex gap-6 items-start">
       <div className="flex flex-col gap-10 flex-1 min-w-0">

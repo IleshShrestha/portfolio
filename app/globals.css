@@ -11,8 +11,25 @@
   --highlight-text: #dad7a9;
 }
 
+html {
+  scroll-behavior: auto; /* Let JS handle smooth scrolling with momentum */
+}
+
 body {
   background: var(--primary-bg);
   color: var(--primary-text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans);
+  overflow-x: hidden;
+}
+
+/* Add momentum scrolling for iOS devices */
+body,
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Smooth scrolling with momentum using scroll-snap for better performance */
+html {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 0;
 }
